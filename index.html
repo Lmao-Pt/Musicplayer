@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>音乐播放器</title>
+        <meta name="keywords" content="关键词">
+        <meta name="description" content="描述">
+        <meta name="author" content="Pt">
+        <link rel="stylesheet" href="css.css" type="text/css">
+        <style>
+        </style>
+    </head>
+    <body>
+        <div id="PtPlayer">
+           <div id="main_ui">
+               <!--歌词图片界面-->
+               <div id="lyr_ui">
+                   <!--歌曲图片-->
+                   <img class="music_pic" src="" alt="">
+                   <!--歌词界面-->
+                   <div class="music_lry">
+                       <ul class="lrs_ul">
+                       </ul>
+                   </div>
+               </div>
+               <div id="sup_ui"></div>
+               <!--播放控制组件 -->
+               <div id="play_ui">
+                   <!--切歌 播放暂停-->
+                   <div class="play_ui_btn">
+                       <div class="pre_btn change" title="上一首" onclick="preOne()"><img src="icon_svg/上一首.svg" alt="" width="100%" height="100%"></div>
+                       <div class="onOff" title="暂停/播放" onclick="playMusic()">
+                           <img id="onOff_img" src="icon_svg/暂停.svg" alt="" width="100%" height="100%">
+                           <audio id="play1">
+                               <source id="mySource" src=""/>
+                           </audio>
+                       </div>
+                       <div class="next_btn change" title="下一首" onclick="nextOne()"><img src="icon_svg/下一首.svg" alt="" width="100%" height="100%"></div>
+                   </div>
+                   <!--进度条-->
+                   <div class="play_ui_progress">
+                       <p class="proTime now">00:00</p>
+                       <div class="proBar" onclick="adjust(event)">
+                           <div class="fill" ></div>
+                       </div>
+                       <p class="proTime dur"></p>
+                   </div>
+                   <!--歌词/图片切换-->
+                   <div class="lry_img">
+                        <div class="lrIm_btn lry">词</div>
+                        <div class="lrIm_btn img">图</div>
+                   </div>
+                   <!--音量-->
+                   <div class="play_ui_volume">
+                       <div class="volume_btn"></div>
+                   </div>
+               </div>
+           </div>
+        </div>
+        <script type="text/javascript" src="musicPlayList.js"></script>
+        <script>
+            
+        </script>
+    </body>
+</html>

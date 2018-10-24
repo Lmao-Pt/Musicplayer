@@ -1,0 +1,161 @@
+body,dl,dd,p,h1,h2,h3,h4,h5,h6{margin:0;}
+ol,ul,li{margin:0;padding:0;list-style:none;}
+img{border:none;}
+body{
+    width: 100%;
+    height: 1000px;
+}
+#PtPlayer{
+    margin: 0 auto;
+    width: 900px;
+    height: 620px;
+}
+#PtPlayer #main_ui{
+    width: 100%;
+    height: 100%;
+}
+#PtPlayer #main_ui #lyr_ui{
+    position: relative;
+    float: left;
+    width: 800px;
+    height: 490px;
+}
+#PtPlayer #main_ui #lyr_ui .music_pic{
+    float: left;
+    margin-left: 206px;
+    width: 400px;
+    height:400px;
+    border: 40px solid #000;
+    border-radius: 50%;
+    transition: opacity 1s;
+}
+#PtPlayer #main_ui #lyr_ui .music_lry{
+    display: none;
+    position: absolute;
+    left: 206px;
+    width: 480px;
+    height: 480px;
+    overflow: hidden;
+    background: rgba(172, 255, 238, 0.1);
+}
+#PtPlayer #main_ui #lyr_ui .music_lry .lrs_ul{
+    margin-left: 40px;
+    width: 400px;
+    transition: margin-top 2s;
+    overflow: hidden;
+}
+#PtPlayer #main_ui #lyr_ui .music_lry .lrs_ul li{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #87b1f8;
+}
+#PtPlayer #main_ui #lyr_ui .music_lry .lrs_ul .focus{
+    color: #f95859;
+    transform: scale(1.2);
+    transition: all 1s;
+}
+#PtPlayer #main_ui #sup_ui{
+    float: left;
+    width: 90px;
+    height: 490px;
+}
+#PtPlayer #main_ui #play_ui{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 120px;
+    border: 1px dotted #ffb61e;
+    background: #dccdff;
+}
+#PtPlayer #main_ui #play_ui .play_ui_btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-80%);
+    width: 136px;
+    height: 50px;
+    vertical-align: middle;
+    overflow: hidden;
+}
+#PtPlayer #main_ui #play_ui .play_ui_btn .change{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+}
+#PtPlayer #main_ui #play_ui .play_ui_btn .change :hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+#PtPlayer #main_ui #play_ui .play_ui_btn .next_btn.change{
+    right: 0;
+}
+#PtPlayer #main_ui #play_ui .play_ui_btn .onOff{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+#PtPlayer #main_ui #play_ui .play_ui_btn .onOff :hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+#PtPlayer #main_ui #play_ui .lry_img{
+    float: right;
+    margin: 80px 80px 0 0;
+    width: 40px;
+    height: 20px;
+}
+#PtPlayer #main_ui #play_ui .lry_img .lrIm_btn{
+    float: left;
+    width: 50%;
+    height: 100%;
+    font-size:12px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+#PtPlayer #main_ui #play_ui .lry_img .lry{
+    background: #0099ff;
+}
+#PtPlayer #main_ui #play_ui .lry_img .img{
+    background: #ff484f;
+}
+#PtPlayer #main_ui #play_ui .play_ui_progress{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,20px);
+    width: 460px;
+    height: 30px;
+}
+#PtPlayer #main_ui #play_ui .play_ui_progress .proTime{
+    float: left;
+    width: 50px;
+    height: 100%;
+    font-size: 12px;
+    color: #707070;
+}
+#PtPlayer #main_ui #play_ui .play_ui_progress .proTime.dur{
+    float: right;
+}
+#PtPlayer #main_ui #play_ui .play_ui_progress .proBar{
+    float: left;
+    margin-top: 8px;
+    width: 340px;
+    height: 4px;
+    background: #acacac;
+}
+#PtPlayer #main_ui #play_ui .play_ui_progress .proBar .fill{
+    float: left;
+    height: 100%;
+    background: #e51711;
+}
+#PtPlayer #main_ui #play_ui .play_ui_volume{
+
+}
