@@ -62,8 +62,8 @@ audio.ontimeupdate=function(){
         if(time=== lrc_li[i].dataset.time){
             lrc_li[i-1].classList.remove("focus");
             lrc_li[i].classList.add("focus");
-            if( i>5&&((lrc_li.length-i)>8) ){
-                lrs_ul.style.marginTop= -30* (i-5) + 'px';
+            if( i>7&&((lrc_li.length-i)>8) ){
+                lrs_ul.style.marginTop= -30* (i-7) + 'px';
                 console.log(lrc_li[i].innerText);
             }
         }
