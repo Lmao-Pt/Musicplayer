@@ -1,43 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="921c3aa0-9d3a-4cac-b261-ee213ee81e93" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/music video player.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax获取本地文件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bgImg/001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bgImg/002.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bgImg/003.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bgImg/004.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bgImg/005.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon_svg/上一首.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon_svg/下一首.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon_svg/列表循环.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon_svg/单曲循环.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon_svg/声音.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon_svg/密码.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon_svg/搜索.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon_svg/播放.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon_svg/播放_1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon_svg/播放器-下一集_44.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon_svg/暂停.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon_svg/随机播放.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicPlayList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/test1.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/test2.lrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/test2.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/test3.lrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/test3.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/test4.lrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/test4.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/test5.lrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/test5.mp3" afterDir="false" />
-    </list>
+    <list default="true" id="921c3aa0-9d3a-4cac-b261-ee213ee81e93" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
