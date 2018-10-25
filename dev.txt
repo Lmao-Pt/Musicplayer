@@ -1,1 +1,5 @@
-u r in master branch
+<<<<<<< HEAD
+u r in master branch  this is a test of git's branch
+=======
+u r in master branch  this is a test of git's branch
+>>>>>>> dev
